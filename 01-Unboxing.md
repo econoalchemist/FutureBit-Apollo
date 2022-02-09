@@ -37,6 +37,6 @@ There are additional connection types on the Apollo to suit a range of configura
 
 Once the Apollo powers on, the light indicator on the front will flash red & blue for a few minutes while the device goes through its initial configurations automatically. After a few minutes, the light will steadily flash red and the cooling fan will then start spinning, this indicates that the Apollo is now hashing and ready to configure.  
 
-![](assets/apollo14.jpg)
+![](assets/apollo14_1.jpg)
 
 Using the included instruction card, you can now navigate to the [support page](https://www.futurebit.io/apollo-btc-support) to start the configuration.
