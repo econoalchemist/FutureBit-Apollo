@@ -20,7 +20,7 @@ The Apollo is ready to plug in right out of the box. The enclosure is made of al
   <img width="450" src="assets/apollo07.jpg">
   <img width="450" src="assets/apollo08.jpg"> 
   <img width="450" src="assets/apollo09_1.jpg">
-  <img width="450" src="assets/apollo10.jpg"> 
+  <img width="450" src="assets/apollo10_1.jpg"> 
   </p>
   
 The included power supply has two 6-pin firectional connectors that plug into the back of the Apollo. This will achieve ~3Th in hash rate. If you want to achieve the full ~3.8Th, then you need to get your own power supply that is rated for more than 300 Watts. If you want to connect your Apollo to a dedicated monitor, mouse, and keyboard then connect those devices now. For a wired internet connection, plug in an Ethernet cable to connect to your local network. Then simply connect the included power cable to the other side of the power supply and plug it into an outlet and you are ready to power on the Apollo.
