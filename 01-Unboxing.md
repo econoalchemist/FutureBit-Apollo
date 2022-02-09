@@ -1,4 +1,4 @@
-# Unboxing
+# Unboxing & Setup
 The Apollo ships in an inconspicuous brown box measuring 10" x 8" x 5". There are no company stickers, logos, or designs on the box or any indications that there is Bitcoin related contents within. 
 
 ![](assets/apollo00.jpg)
