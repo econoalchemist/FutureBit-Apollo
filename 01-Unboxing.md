@@ -3,7 +3,7 @@ The Apollo ships in an inconspicuous brown box measuring 10" x 8" x 5". There ar
 
 ![](assets/apollo00.jpg)
 
-Inside the brown box is the FutureBit packaged box which is sealed shut with a foil sticker. Inside box is a foam-packed controller, power supply, power cable, and instruction card.
+Inside the brown box is the FutureBit packaged box which is sealed shut with a foil sticker. Inside this box is a foam-packed controller, power supply, power cable, and instruction card.
 
 <p align="center">
   <img width="450" src="assets/apollo01.jpg">
@@ -12,7 +12,7 @@ Inside the brown box is the FutureBit packaged box which is sealed shut with a f
   <img width="450" src="assets/apollo04.jpg">
   </p>
 
-The Apollo is ready to plug in right out of the box. The enclosure is made of aluminium, there is a large cooling fan on the top, the heat sink can draw in air from three sides as well as the bottom as it is a open underside design. The bottom of the Apollo is also where you can confirm that the included 16GB microSD card is inserted all the way. If you ever want to upgrade the storage capacity beyond the included 1TB PCIe NVMe M.2 SSD, you can easily access it from the open bottom as well. 
+The Apollo is ready to plug in right out of the box. The enclosure is made of aluminium, there is a large cooling fan on the top, the heat sink can draw in air from three sides as well as the bottom as it is an open underside design. The bottom of the Apollo is also where you can confirm that the included 16GB microSD card is inserted all the way. If you ever want to upgrade the storage capacity beyond the included 1TB PCIe NVMe M.2 SSD, you can easily access it from the open bottom as well. 
 
 <p align="center">  
   <img width="450" src="assets/apollo05.jpg">
@@ -23,7 +23,7 @@ The Apollo is ready to plug in right out of the box. The enclosure is made of al
   <img width="450" src="assets/apollo10_1.jpg"> 
   </p>
   
-The included power supply has two 6-pin firectional connectors that plug into the back of the Apollo. This will achieve ~3Th in hash rate. If you want to achieve the full ~3.8Th, then you need to get your own power supply that is rated for more than 300 Watts. If you want to connect your Apollo to a dedicated monitor, mouse, and keyboard then connect those devices now. For a wired internet connection, plug in an Ethernet cable to connect to your local network. Then simply connect the included power cable to the other side of the power supply and plug it into an outlet and you are ready to power on the Apollo.
+The included power supply has two 6-pin directional connectors that plug into the back of the Apollo. This will achieve ~3Th in hash rate. If you want to achieve the full ~3.8Th, then you need to get your own power supply that is rated for more than 300 Watts. If you want to connect your Apollo to a dedicated monitor, mouse, and keyboard then connect those devices now. For a wired internet connection, plug in an Ethernet cable to connect to your local network. Then simply connect the included power cable to the other side of the power supply and plug it into an outlet and you are ready to power on the Apollo.
  
 <p align="center">  
   <img width="450" src="assets/apollo11_1.jpg">
