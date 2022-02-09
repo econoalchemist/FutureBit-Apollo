@@ -30,7 +30,7 @@ The included power supply has two 6-pin directional connectors that plug into th
   <img width="450" src="assets/apollo12.jpg">
   </p>
 
-There are additional connection types on the Apollo to suit a range of configuration options. You can connect a monitor to the HDMI out port and a USB keyboard/mouse to the USB ports. There is also a high speed USB-3 and USB-C port for optional peripherals. If you don't want to use an Ethernet cable, you can connect to your network with a modern dual band AC WiFi controller. Alternatively, there is a dedicated 1 Gigabit Ethernet port as well, which is how it was configured in this guide. You can also connect bluetooth devices as Bluetooth v5 comes built in, this includes the Bluetooth Ledger Hardware wallet. The Apollo also has an audio in/out port.
+There are additional connection types on the Apollo to suit a range of configuration options. You can connect a monitor to the HDMI out port and a USB keyboard/mouse to the USB ports. There is also a high speed USB-3 and USB-C port for optional peripherals. If you don't want to use an Ethernet cable, you can connect to your network with a modern dual band AC WiFi controller. Alternatively, there is a dedicated 1 Gigabit Ethernet port, which is how it was configured in this guide. You can also connect bluetooth devices as Bluetooth v5 comes built in, such as the Bluetooth Ledger Hardware wallet. The Apollo also has an audio in/out port.
 
 ![](assets/apollo15.png)
 ![](assets/apollo13_1.jpg)
@@ -38,3 +38,5 @@ There are additional connection types on the Apollo to suit a range of configura
 Once the Apollo powers on, the light indicator on the front will flash red & blue for a few minutes while the device goes through its initial configurations automatically. After a few minutes, the light will steadily flash red and the cooling fan will then start spinning, this indicates that the Apollo is now hashing and ready to configure.  
 
 ![](assets/apollo14.jpg)
+
+Using the included instruction card, you can now navigate to the [support page](https://www.futurebit.io/apollo-btc-support) to start the configuration.
