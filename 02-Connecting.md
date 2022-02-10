@@ -25,7 +25,9 @@ In this guide, CK Pool was used. The concepts presented here are mostly the same
 
 Next, you should be brought to your Apollo lock-screen. Enter the password you created for accessing your Apollo dashboard. 
 
-![](assets/setup02.png)
+<p align="center">
+  <img src="assets/setup02.png">
+  </p>
 
 You should now be looking at your Apollo dashboard, congratulations, you're all finished!
 
@@ -35,7 +37,9 @@ On the left-hand side is a vertical menu, here you can click on `Miner` > `Dashb
 
 This is a good time to check your mining pool dashboard to see if your hash rate is hitting the pool. If you are using CK Pool, the dash board is pretty simple with just the basic information printed. You can use the URL: https://solo.ckpool.org/users/YOUR-BITCOIN-ADDRESS to monitor your stats. 
 
-![](assets/setup04.png)
+<p align="center">
+  <img src="assets/setup04.png">
+  </p>
 
 Or is you are using Slush Pool, you'll have many more details and features in your dashboard. 
 
