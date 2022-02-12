@@ -41,7 +41,7 @@ This is a good time to check your mining pool dashboard to see if your hash rate
   <img src="assets/setup04.png">
   </p>
 
-Or is you are using Slush Pool, you'll have many more details and features in your dashboard. 
+Or if you are using Slush Pool, you'll have many more details and features in your dashboard. 
 
 ![](assets/slush23.png)
 
