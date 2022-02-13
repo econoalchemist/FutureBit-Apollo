@@ -47,8 +47,14 @@ Or if you are using Slush Pool, you'll have many more details and features in yo
 
 You can `Start`, `Stop`, and `Restart` your miner from the left-hand side menu as well.  
 
-Back in your Apollo dashboard, you can click on `Node` > `Dashboard` and then check the status of your full Bitcoin node. When the Apollo did its initial automatic configuration, one of the processes was starting up your Bitcoin node. You will see that it has already started downloading the entire Bitcoin blockchain all the way back to the very first block in January 2009. The initial blockchain download will take less than two days. This process will just continue running in the background until it is finished. 
+Back in your Apollo dashboard, you can click on `Node` > `Dashboard` and then check the status of your full Bitcoin node. When the Apollo did its initial automatic configuration, one of the processes was starting up your Bitcoin node. You will see that it has already started downloading the entire Bitcoin blockchain all the way back to the very first block in January 2009. The initial blockchain download will take roughly two days. 52:20 in this demonstration. This process will just continue running in the background until it is finished. 
 
 ![](assets/setup05.png)
 
 You can `Start` and `Stop` your node from the left-hand side menu as well. 
+
+Leave the settings of the Apollo on `ECO` mode while it is completeing the initial blockchain download. Once the Apollo is fully synchonized, then you can navigate to the `Settings` tab in the left-hand menu and there you can change the configuration to `Balanced` mode, which will run the Apollo making a good compromise between hashrate, efficiency, and noise. Running the Apollo in `Turbo` mode will be the least efficient, but its hashrate will be the highest. This mode is only recommended for expert users, and you should monitor your miner for possible overheating. The fan can get loud in this mode.
+
+![](assets/setup06.png)
+
+Otherwise, your Apollo is good to go at this point. You now have a full Bitcoin node and a miner running quietly. The next section will demonstrate how to connect the Apollo's node to a desktop Bitcoin wallet.
