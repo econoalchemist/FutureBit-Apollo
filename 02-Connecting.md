@@ -1,5 +1,5 @@
 # Connecting to a Bitcoin Mining Pool
-This section will show you how to connect to a Bitcoin mining pool. After the Apollo completed the automatic initial configuration, it started hashing. This is idicated by the steady flashing red light on the front of the device and the cooling fan running. More detailed instructions can be found on the [FutureBit Support Page](https://www.futurebit.io/apollo-btc-support).
+This section will show you how to connect to a Bitcoin mining pool. After the Apollo completed the automatic initial configuration, it started hashing. This is indicated by the steady flashing red light on the front of the device and the cooling fan running. More detailed instructions can be found on the [FutureBit Support Page](https://www.futurebit.io/apollo-btc-support).
 
 If you connected a monitor, keyboard, and mouse to the Apollo then you should be greeted with a login screen after all the system level configurations are complete. The password should be `futurebit123`. 
 
@@ -17,7 +17,7 @@ In this guide, CK Pool was used. The concepts presented here are mostly the same
 
 - You want to take the mining pool URL and copy/paste it in the `URL` dialog box on the Apollo Initial Setup screen.
 - Enter the `Username` in the next dialog box. If you're using Slush Pool, this will be the same username used for logging into your Slush Pool account. If you are using CK Pool, this will be the Bitcoin address you want the rewards deposited to if you solve for a block. In either case, you can append the username with `.worker1`, `.worker2`, etc to distinguish between multiple miners you may have. 
-- The `Password` entered in the next dialog box has no security consequences, it is merely a method for conrolling spam pings to the mining pool's server, this can be something as simple as `1234`.
+- The `Password` entered in the next dialog box has no security consequences, it is merely a method for controlling spam pings to the mining pool's server, this can be something as simple as `1234`.
 - Below in the next two dialog boxes however, this password is sensitive in terms of security. This password is the one that will allow access to your Apollo dashboard. Using high entropy passwords is a good practice. 
 - Once you are finished click on `Save` in the lower right-hand corner. 
 
@@ -53,7 +53,7 @@ Back in your Apollo dashboard, you can click on `Node` > `Dashboard` and then ch
 
 You can `Start` and `Stop` your node from the left-hand side menu as well. 
 
-Leave the settings of the Apollo on `ECO` mode while it is completeing the initial blockchain download. Once the Apollo is fully synchonized, then you can navigate to the `Settings` tab in the left-hand menu and there you can change the configuration to `Balanced` mode, which will run the Apollo making a good compromise between hashrate, efficiency, and noise. Running the Apollo in `Turbo` mode will be the least efficient, but its hashrate will be the highest. This mode is only recommended for expert users, and you should monitor your miner for possible overheating. The fan can get loud in this mode.
+Leave the settings of the Apollo on `ECO` mode while it is completing the initial blockchain download. Once the Apollo is fully synchronized, then you can navigate to the `Settings` tab in the left-hand menu and there you can change the configuration to `Balanced` mode, which will run the Apollo making a good compromise between hashrate, efficiency, and noise. Running the Apollo in `Turbo` mode will be the least efficient, but its hashrate will be the highest. This mode is only recommended for expert users, and you should monitor your miner for possible overheating. The fan can get loud in this mode.
 
 ![](assets/setup06.png)
 
