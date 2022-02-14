@@ -8,11 +8,11 @@ You can install Sparrow Wallet directly onto the Apollo since it has a full desk
 Otherwise, if you have Sparrow Wallet installed on a different computer then you can still use the Apollo as a back end through Remote Procedure Calls (RPC). You just need to open up the `bitcoin.conf` file and make a couple changes. For this demonstration a SSH connection to the Apollo from a separate computer on the same local network will be used. 
 
 ## SSH Connection
-To establish the SSH connection, a simple application called Putty can be used. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the .msi file and follow the install wizard prompts.
+To establish the SSH connection, a simple application called Putty can be used. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the `.msi` file and follow the install wizard prompts.
 
 ![](assets/ssh00.png)
 
-Once you run the Putty application, enter the local IP address of your Apollo in the `Host Name` dialog box, enter your user, which will be `futurebit` the `@` symbol followed by your Apollo local IP local address. For example, all together, it should look like: `futurebit@192.168.69.16` and then select `Open` at the bottom. You can also save these settings so you don't have to enter this information manually each time. 
+Once you run the Putty application, enter the local IP address of your Apollo in the `Host Name` dialog box, enter your user, which will be `futurebit`, the `@` symbol, followed by your Apollo local IP local address. For example, all together, it should look like: `futurebit@192.168.69.16` and then select `Open` at the bottom. You can also save these settings so you don't have to enter this information manually each time. 
 
 <p align="center">
   <img src="assets/ssh01.png">
@@ -32,15 +32,11 @@ Then you should be looking at a screen like this, *DO NOT RUN THE UPDATES*, doin
   <img src="assets/ssh03.png">
 </p>
 
-All you need to do from this point is run this command: `cd /opt/apolloapi/backend/node`
+All you need to do from this point is add the RPC settings to the Bitcoin configuration file. First, change the directory to the location of the configuration file by running this command: `cd /opt/apolloapi/backend/node`
 
-And then this command: `sudo nano bitcoin.conf`
+And then this command will open that file in a text editor called "Nano": `sudo nano bitcoin.conf`
 
-Once you have the configuration file open, the following lines:
-
-`rpcuser=futurebit`
-
-`rpcpassword=futurebit`
+Once you have the configuration file open, add the following lines:
 
 `rpcbind=127.0.0.1`
 
@@ -71,13 +67,13 @@ Now you are ready to configure Sparrow Wallet to talk to your Apollo Bitcoin Cor
 
 Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. 
 
-Option 1) If running Sparrow Wallet on the Apollo, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read.
+Option 1) If running Sparrow Wallet on the Apollo, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. You should be able to find that file path in something like `home/opt/apolloapi/backend/node` from the file explorer in your Apollo desktop environment.
 
 <p align="center">
   <img src="assets/sparrow01.png">
 </p>
 
-Option 2) If running Sparrow Wallet on a different computer, enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that you entered in the `bitcoin.conf` file. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
+Option 2) If running Sparrow Wallet on a different computer, enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that was in the `bitcoin.conf` file, `futurebit/futurebit`. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
 
 <p align="center">
   <img src="assets/sparrow02.png">
@@ -85,8 +81,12 @@ Option 2) If running Sparrow Wallet on a different computer, enter the local IP 
 
 Privacy note: Unfortunately, Bitcoin Core stores your public keys and balances unencrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
 
-Once configured you can now use Sparrow Wallet as a hot wallet, Whirlpool CoinJoins, watch-only for an air-gapped hardware wallet, and more. All configured to use the Apollo as the backend node, keeping your transaction inquireries and broadcasts more private. 
+Once configured you can now use Sparrow Wallet as a hot wallet, for Whirlpool CoinJoins, for a watch-only wallet for an air-gapped hardware wallet, and more. All configured to use the Apollo as the backend node, keeping your transaction inquiries and broadcasts more private. 
 
 <p align="center">
   <img src="assets/sparrow03.png">
 </p>
+
+
+## Conclusion
+This guide has demonstrated unboxing, setting up, connecting, and configuring the FutureBit Apollo in such a way that it is remotely accessed on a home network, mining on solo CK Pool, and running the backend for a remotely accessible Bitcoin desktop wallet. There will be more developments in store for the Apollo so be sure to follow [@FutureBit](https://twitter.com/FutureBit) on Twitter for announcements and check out their [website](https://www.futurebit.io/) to order an Apollo for yourself.  
