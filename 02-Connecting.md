@@ -45,7 +45,7 @@ Or if you are using Slush Pool, you'll have many more details and features in yo
 
 ![](assets/slush23.png)
 
-You can `Start`, `Stop`, and `Restart` your miner from the left-hand side menu as well.  
+Once you see hash rate showing up in your mining pool dashboard, that's it, you are finished with your miner setup. You can `Start`, `Stop`, and `Restart` your miner from the left-hand side menu as well.  
 
 Back in your Apollo dashboard, you can click on `Node` > `Dashboard` and then check the status of your full Bitcoin node. When the Apollo did its initial automatic configuration, one of the processes was starting up your Bitcoin node. You will see that it has already started downloading the entire Bitcoin blockchain all the way back to the very first block in January 2009. The initial blockchain download will take roughly two days. 52:20 in this demonstration. This process will just continue running in the background until it is finished. 
 
