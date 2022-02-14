@@ -15,6 +15,8 @@ This guide will show you how to get started with a FutureBit Apollo Full Package
 - Connecting to a Bitcoin mining pool
 - Configuring the Apollo Bitcoin node with [Sparrow Wallet](https://www.sparrowwallet.com/)
 
+When you order an Apollo, or any Bitcoin related materials for that matter, consider using a P.O. Box to guard your privacy. 
+
 ## Technical Specifications of the Apollo
 - Size: 4” x 6” x 4”
 - Hash board: SHA256 mining performance from 2Th to 3Th stock, up to 3.8Th achievable with an external >300 Watt power supply  
