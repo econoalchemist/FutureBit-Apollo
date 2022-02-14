@@ -12,7 +12,7 @@ Inside the brown box is the FutureBit packaged box which is sealed shut with a f
   <img width="450" src="assets/apollo04.jpg">
   </p>
 
-The Apollo is ready to plug in right out of the box. The enclosure is made of aluminium, there is a large cooling fan on the top, the heat sink can draw in air from three sides as well as the bottom as it is an open underside design. The bottom of the Apollo is also where you can confirm that the included 16GB microSD card is inserted all the way. If you ever want to upgrade the storage capacity beyond the included 1TB PCIe NVMe M.2 SSD, you can easily access it from the open bottom as well. 
+The Apollo is ready to plug in right out of the box. The enclosure is made of aluminum, there is a large cooling fan on the top, the heat sink can draw in air from three sides as well as the bottom as it is an open underside design. The bottom of the Apollo is also where you can confirm that the included 16GB microSD card is inserted all the way. If you ever want to upgrade the storage capacity beyond the included 1TB PCIe NVMe M.2 SSD, you can easily access it from the open bottom as well. 
 
 <p align="center">  
   <img width="450" src="assets/apollo05.jpg">
