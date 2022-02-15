@@ -8,7 +8,7 @@ You can install Sparrow Wallet directly onto the Apollo since it has a full desk
 Otherwise, if you have Sparrow Wallet installed on a different computer then you can still use the Apollo as a back end through Remote Procedure Calls (RPC). You just need to open up the `bitcoin.conf` file and make a couple changes. For this demonstration a SSH connection to the Apollo from a separate computer on the same local network will be used. 
 
 ## SSH Connection
-To establish the SSH connection, a simple application called Putty can be used. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the `.msi` file and follow the install wizard prompts.
+To establish the SSH connection, a simple application called Putty can be used if your remote computer is a Windows machine. Otherwise, you should have SSH tools built in already on a Linux machine. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the `.msi` file and follow the install wizard prompts.
 
 ![](assets/ssh00.png)
 
