@@ -1,9 +1,9 @@
 # Configuring Apollo as a Sparrow Wallet Backend
 Sparrow Wallet is a Bitcoin wallet designed to be connected with your own node and ran from your desktop or laptop computer. This is a user-friendly wallet with an intuitive interface and many advanced features for a range of capabilities. To learn more about Sparrow Wallet and for installation instructions, visit the [Sparrow Wallet website](https://www.sparrowwallet.com/).
 
-Since the Apollo is running Bitcoin Core, this can be used as a backend for Sparrow Wallet so that you gain the privacy benefits of broadcasting and verifying your transactions against your own copy of the the Bitcoin blockchain. Otherwise, you would be reliant on trusting someone else's node, such as a public Electrum server.
+Since the Apollo is running Bitcoin Core, this can be used as a backend for Sparrow Wallet so that you gain the ability to broadcast transactions from your own node and verify your transactions against your own copy of the the Bitcoin blockchain. Otherwise, you would be reliant on trusting someone else's node, such as a public Electrum server.
 
-You can install Sparrow Wallet directly onto the Apollo since it has a full desktop environment like any other personal computer. Just make sure you have your monitor, keyboard, and mouse connected then you can navigate through these steps from there. If you install Sparrow Wallet on the Apollo then you should not have to do any configuration in Bitcoin Core as it is set with the necessary command be default on the Apollo, `server=1`.  
+You can install Sparrow Wallet directly onto the Apollo since it has a full desktop environment like any other personal computer. Because Apollo runs on a Linuz based operating system, you will want to download the Linux amd64 latest version of Sparrow Wallet from [here](https://www.sparrowwallet.com/download/). Just make sure you have your monitor, keyboard, and mouse connected then you can navigate through these steps from there. If you install Sparrow Wallet on the Apollo then you should not have to do any configuration in Bitcoin Core as it is set with the necessary command be default on the Apollo, `server=1`.  
 
 Otherwise, if you have Sparrow Wallet installed on a different computer then you can still use the Apollo as a back end through Remote Procedure Calls (RPC). You just need to open up the `bitcoin.conf` file and make a couple changes. For this demonstration a SSH connection to the Apollo from a separate computer on the same local network will be used. 
 
@@ -67,7 +67,7 @@ Now you are ready to configure Sparrow Wallet to talk to your Apollo Bitcoin Cor
 
 Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. 
 
-Option 1) If running Sparrow Wallet on the Apollo, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. You should be able to find that file path in something like `home/opt/apolloapi/backend/node` from the file explorer in your Apollo desktop environment.
+Option 1) If running Sparrow Wallet on the Apollo, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. You should be able to find that file path in something like `/opt/apolloapi/backend/node` from the file explorer in your Apollo desktop environment.
 
 <p align="center">
   <img src="assets/sparrow01_1.png">
