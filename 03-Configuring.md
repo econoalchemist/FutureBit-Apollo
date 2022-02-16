@@ -67,13 +67,7 @@ Now you are ready to configure Sparrow Wallet to talk to your Apollo Bitcoin Cor
 
 Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. 
 
-Option 1) If running Sparrow Wallet on the Apollo, use the `127.0.0.1` rpcbind IP address with `8332` as the port and the default authentication option. Set the Data Folder directory to the same folder the `bitcoin.conf` file is being written. This should be the same directory that BitcoinCore writes the `.cookie` file that Sparrow Wallet needs to read. You should be able to find that file path in something like `/opt/apolloapi/backend/node` from the file explorer in your Apollo desktop environment.
-
-<p align="center">
-  <img src="assets/sparrow01_1.png">
-</p>
-
-Option 2) If running Sparrow Wallet on a different computer, enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that was in the `bitcoin.conf` file, `futurebit/futurebit`. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
+When running Sparrow Wallet on a different computer, enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that was in the `bitcoin.conf` file, `futurebit/futurebit`. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
 
 <p align="center">
   <img src="assets/sparrow02.png">
