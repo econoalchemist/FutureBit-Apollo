@@ -1,12 +1,12 @@
 # Configuring Apollo as a Sparrow Wallet Backend
-Sparrow Wallet is a Bitcoin wallet designed to be connected with your own node and ran from your desktop or laptop computer. This is a user-friendly wallet with an intuitive interface and many advanced features for a range of capabilities. To learn more about Sparrow Wallet and for installation instructions, visit the [Sparrow Wallet website](https://www.sparrowwallet.com/).
+This section is done from a remote computer. If you used the Apollo desktop environment in the last section, you will now want to switch over to the computer that you will install Sparrow Wallet on. Sparrow Wallet is a Bitcoin wallet designed to be connected with your own node and ran from your desktop or laptop computer. This is a user-friendly wallet with an intuitive interface and many advanced features for a range of capabilities. To learn more about Sparrow Wallet and for installation instructions, visit the [Sparrow Wallet website](https://www.sparrowwallet.com/).
 
 Since the Apollo is running Bitcoin Core, this can be used as a backend for Sparrow Wallet so that you gain the ability to broadcast transactions from your own node and verify your transactions against your own copy of the the Bitcoin blockchain. Otherwise, you would be reliant on trusting someone else's node, such as a public Electrum server.
 
-Even if you have Sparrow Wallet installed on a different computer then you can still use the Apollo as a back end through Remote Procedure Calls (RPC). You just need to open up the `bitcoin.conf` file and make a couple changes. For this demonstration a SSH connection to the Apollo from a separate computer on the same local network will be used. 
+Even though you have Sparrow Wallet installed on a different computer, you can still use the Apollo as a back end through Remote Procedure Calls (RPC). You just need to open up the `bitcoin.conf` file and make a couple changes. For this demonstration a SSH connection to the Apollo from a separate computer on the same local network will be used. 
 
 ## SSH Connection
-To establish the SSH connection, a simple application called Putty can be used if your remote computer is a Windows machine. Otherwise, you should have SSH tools built in already on a Linux machine. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the `.msi` file and follow the install wizard prompts.
+If you are using a Windows desktop, a simple application called Putty can be used to establish the SSH connection. Putty also works on other OS platforms. Learn more about Putty [here](https://www.putty.org/) and download it from [here](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Best practice is to verify the download, then run the `.msi` file and follow the install wizard prompts.
 
 ![](assets/ssh00.png)
 
@@ -65,7 +65,7 @@ Now you are ready to configure Sparrow Wallet to talk to your Apollo Bitcoin Cor
 
 Then click on the <kbd>Server</kbd> tab on the left-hand side. Click on the <kbd>Bitcoin Core</kbd> tab for the `Server Type`. 
 
-When running Sparrow Wallet on a different computer, enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that was in the `bitcoin.conf` file, `futurebit/futurebit`. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
+Enter the local IP address for the Apollo in the URL dialog box. Use the same User/Pass that was in the `bitcoin.conf` file, `futurebit/futurebit`. Test the network connection from Sparrow Wallet. If it’s good, you should see the green check mark next to <kbd>Test Connection</kbd> and some information populated in the dialog box below that. Then you can close that window.   
 
 <p align="center">
   <img src="assets/sparrow02.png">
@@ -73,7 +73,7 @@ When running Sparrow Wallet on a different computer, enter the local IP address 
 
 Privacy note: Unfortunately, Bitcoin Core stores your public keys and balances unencrypted on the computer it is running on. Although your bitcoin are not directly at risk of theft, if this computer is regularly connected to the internet, it is at risk to hackers - which has the potential to make you a target if your balance and geographic location are discovered. To learn more about Sparrow Wallet best practices, check out [this Sparrow Wallet resource](https://www.sparrowwallet.com/docs/best-practices.html). 
 
-Once configured you can now use Sparrow Wallet as a hot wallet, for Whirlpool CoinJoins, for a watch-only wallet for an air-gapped hardware wallet, and more. All configured to use the Apollo as the backend node, keeping your transaction inquiries and broadcasts more private. 
+Once configured you can now use Sparrow Wallet as a hot wallet, for Whirlpool CoinJoins, for a watch-only wallet for an air-gapped hardware wallet, and more. All configured to use the Apollo as the backend node, keeping your transaction inquiries more private and allowing you to broadcast directly to the Bitcoin network from your own node. Best practice is use the password feature in Sparrow Wallet to encrypt your wallet data file just in case any one gains access to this file, they will not be able to open it without the password.  
 
 <p align="center">
   <img src="assets/sparrow03.png">
