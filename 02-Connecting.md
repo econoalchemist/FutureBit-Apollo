@@ -1,7 +1,7 @@
 # Connecting to a Bitcoin Mining Pool
 This section will show you how to connect to a Bitcoin mining pool. After the Apollo completed the automatic initial configuration, it started hashing. This is indicated by the steady flashing red light on the front of the device and the cooling fan running. More detailed instructions can be found on the [FutureBit Support Page](https://www.futurebit.io/apollo-btc-support).
 
-If you connected a monitor, keyboard, and mouse to the Apollo then you should be greeted with a login screen after all the system level configurations are complete. The password should be `futurebit123`. You can complete the following steps in this section on the Apollo desktop environment if you want or you can also do this remotely from another computer on the same local network. The next section will cover connecting the Apollo to a desktop wallet on a remote computer and that will not be done on the Apollo's desktop environment. 
+If you connected a monitor, keyboard, and mouse to the Apollo then you should be greeted with a login screen after all the system level configurations are complete. The password should be `futurebit123`. You can complete the following steps in this section on the Apollo desktop environment if you want or you can also do this remotely from another computer on the same local network. However, the next section will cover connecting the Apollo to a desktop wallet on a remote computer and that will not be done on the Apollo's desktop environment. 
 
 ![](assets/apollo16.png)
 
